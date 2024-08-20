@@ -1,0 +1,9 @@
+.Roxo{
+    background-color: rgba(119, 14, 171, 0.648)
+}
+
+/* define a cor da pagina completa pois colori o body */
+ body{
+    background-color: lightgray;
+    margin-left: 100px;
+ }
