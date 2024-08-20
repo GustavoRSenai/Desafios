@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div>
+    <h1>Formulário de interação</h1>
+
+    <p class="obrigatorio">Campos Obrigatórios*</p>
+
+    <form action="Agradecimento.html">
+    <p>Digite o seu Nome:* <input type="text" name="nome"  placeholder="Ex: Paulo" required> </p>
+
+    <p>Digite o seu Email:*<input type="email" placeholder="Ex: jose123@gmail.com" required></p>
+
+    <p>Digite o seu Endereço:<input type="text" name="endereco"  placeholder="Ex: Rua manaus nº10"> </p>
+
+    <p>Digite o Bairro:<input type="text" name="Bairro"  placeholder="Ex: Vila Santana"> </p>
+
+    <p>Digite a Cidade: <input type="text" name="cidade"  placeholder="Ex: Santo André"> </p>
+
+    <p>Entre com a sua mensagem:*</p> 
+    <!-- area de escrita de dado com quantidade de colunas e linhas corretas -->
+    <textarea name="" id="" cols="70" rows="15" placeholder="Digite até 500 caracteres" maxlength="500" required></textarea>
+    
+
+    <p>Escolha o(s) modelo(s) de trabalho:</p>
+
+    <ul>
+        <li><input type="checkbox" name="Trabalho" >Presencial</li>
+        <li><input type="checkbox" name="Trabalho" >Remoto</li>
+        <li><input type="checkbox" name="Trabalho">Híbrido</li>
+    </ul>
+
+    <p>Escolha o período de trabalho:</p> 
+    <!-- escolha de apenas uma opção com 'radio' e mesmo 'name' -->
+    <ul style="list-style: disc;">
+        <li><input type="radio" name="Trabalho" >Manhã</li>
+        <li><input type="radio" name="Trabalho" >Tarde</li>
+        <li><input type="radio" name="Trabalho">Noite</li>
+    </ul>
+
+    <h3>Escolha um Estado:</h3>
+    <!-- Area de seleção de diversas opções -->
+    <label for="estados"></label>
+    <select name="estado" id="">estado
+        <optgroup>
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="ES">Espirito Santo</option>
+            <option value="MS">Mato Grosso do Sul</option>
+        </optgroup>
+    </select>
+
+    <p><input type="checkbox" required>Aceito os <a href="https://www.jusbrasil.com.br/artigos/saiba-como-elaborar-um-termo-de-uso-e-uma-politica-de-privacidade-understand-terms-and-conditions-and-privacy-policy/507868098#:~:text=O%20“Termo%20de%20Uso”%20e,funcionamento%20do%20seu%20software%2Fproduto." >Termos</a>de uso do site </p>
+    <hr>
+    <input type="submit" name="enviar" value="Enviar">
+    <!-- botão para reiniciar a pagina -->
+    <button type="reset">Limpar Dados</button>
+    </form>
+    </div>
+</body>
+</html>
