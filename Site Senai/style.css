@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+.topo{
+    width: auto;
+    height: 100px;
+    background-color: rgba(39, 38, 38, 0.861);
+    position: sticky;
+    top: 0;
+}
+#Senailogo{
+    width: 180px;
+    padding-left: 80px;
+    padding-top: 15px;
+}
+#fundo{
+    width: auto;
+    height: 700px;
+    background-size: cover;
+    background-image: url(assets/destaque.jpg);
+    top: 0;
+    position: static;
+}
