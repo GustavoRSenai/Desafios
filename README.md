@@ -8,6 +8,8 @@ Repositório focado em meus projetos na linguagem HTML
 
 ###
 
-# Desafios resolvidos: #
+### Desafios resolvidos: ###
 
-1. T
+1. Formulário
+2. Site Senai
+3. Tabela
