@@ -4,7 +4,7 @@ Repositório focado em minha resolução de desafios em HTML e CSS
 
 Todos os conhecimentos utilizados nos desafios estão em [CSS](https://github.com/GustavoRSenai/CSS) e em [HTML](https://github.com/GustavoRSenai/HTML)
 
-#
+
 
 <img align="center" height="175" src="https://www.icegif.com/wp-content/uploads/2022/01/icegif-184.gif" />
 
